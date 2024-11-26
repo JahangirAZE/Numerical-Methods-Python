@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 def lagrange (x, x_data, y_data):
     n = len(x_data)
     f = 0
