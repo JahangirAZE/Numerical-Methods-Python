@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 def lagrange_inverse(y, x_data, y_data):
     n = len(y_data)
     f = 0
