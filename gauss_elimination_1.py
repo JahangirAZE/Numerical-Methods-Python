@@ -21,7 +21,6 @@ def gauss_elimination(A, B):
         for j in range(i + 1, n):
             Sum += x[j] * A[i][j]
         x[i] = (B[i] - Sum) / A[i][i]
-    
     return x
 
 A = np.array([[2, 5, 4, 1],
